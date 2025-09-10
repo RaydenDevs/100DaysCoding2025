@@ -8,7 +8,6 @@ public class Day3 {
         Contoh:
         (baris 1)
         (baris 2)
-        (baris 3)
         (dst.)
         */
         
