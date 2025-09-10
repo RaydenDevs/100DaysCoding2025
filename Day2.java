@@ -1,6 +1,7 @@
 package OneHundredDaysOfCoding;
 public class Day2 {
     public static void main(String[] args) {
+        //print(), println(), dan printf()
         System.out.print("Ini adalah print 1 || ");
         System.out.print("Ini adalah print 2\n");
         System.out.println("------------------");
