@@ -1,6 +1,7 @@
 package OneHundredDaysOfCoding;
 public class Day8 {
     public static void main(String[] args) {
+        // Tipe data string
         String nama = "Muh Rayhan S";
         
         // Panjang string
