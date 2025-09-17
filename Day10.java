@@ -1,28 +1,24 @@
 package OneHundredDaysOfCoding;
 public class Day10 {
-    // Deklarasi konstanta global dengan kata kunci 'final'
-    public static final double PI = 3.14159;
-    public static final int MAX_VALUE = 100;
-    
-    public static String nama = "Muh Rayhan S";
-    
     public static void main(String[] args) {
-        // Contoh penggunaan konstanta lokal
-        final String APP_NAME = "Belajar Java";
-        
-        String prodi = "Informatika";
+        final String nama = "Muh Rayhan S";
+        final String prodi = "Informatika";
+        final String a = "Java";
+        final double b = 3.14159;
+        final int c = 100;
         
         /*
-        Jika nilai APP_NAME diubah jadi (Contoh seperti di bawah) maka akan terjadi error
-        karena nilai dari APP_NAME sudah final dan tidak bisa diubah2 lagi
+        Jika nilai variabel diatas diupdate/diubah maka akan terjadi error
+        karena nilai dari variabel sudah final dan tidak bisa diubah2 lagi
         */
         
-        //APP_NAME = "bruh"; //Error
+        //Contoh:
+        //a = "Lua"; //Error
 
         System.out.println("Nama: " + nama);
         System.out.println("Prodi: " + prodi);
-        System.out.println("Nama Aplikasi: " + APP_NAME);
-        System.out.println("Nilai PI: " + PI);
-        System.out.println("Nilai Maksimum: " + MAX_VALUE);
+        System.out.println("Bahasa Pemrograman: " + a);
+        System.out.println("Nilai b: " + b);
+        System.out.println("Nilai c: " + c);
     }
 }
