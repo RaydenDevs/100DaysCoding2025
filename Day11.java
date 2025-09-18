@@ -1,7 +1,13 @@
 package OneHundredDaysOfCoding;
+//import Scanner (Import di Java memang harus ditulis sebelum deklarasi class)
 import java.util.Scanner;
-public class Day2 {
+public class Day11 {
     public static void main(String[] args) {
+        /*
+        Java bukan bahasa yang menyediakan input langsung seperti C (scanf) 
+        atau Python (input()). Maka dari itu, untuk membaca input, kita perlu 
+        membuat objek dari class Scanner.
+        */
         Scanner input = new Scanner(System.in);
         
         System.out.println("String1: ");
