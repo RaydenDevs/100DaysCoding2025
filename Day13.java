@@ -11,7 +11,7 @@ public class Day13 {
         d = a;
         a = b;
         b = d;
-        //Nilai c masih sama jadi tidak perlu ditukar
+        //Nilai c masih sama jadi tidak perlu ditukar/ubah
         
         System.out.printf("URUTAN NILAI SESUDAH DITUKAR: %c, %c, %c\n\n", a, b, c);
     }
