@@ -15,5 +15,6 @@ public class Day21 {
         System.out.println("\nSesudah ditukar:");
         System.out.println("a = " + a);
         System.out.println("b = " + b);
+        
     }
 }
