@@ -14,5 +14,7 @@ public class Day23 {
         
         int ls = p*l;
         System.out.printf("Sebuah persegi panjang memiliki panjang %d cm dan lebar %d cm, berarti luas persegi panjang adalah %d cm\n", p, l, ls);
+
+        i.close();
     }
 }
