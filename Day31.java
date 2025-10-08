@@ -1,5 +1,5 @@
 package OneHundredDaysOfCoding;
-public class Day2 {
+public class Day31 {
     public static void main(String[] args) {
         int a = 5;
         int b = 10;
