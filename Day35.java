@@ -29,10 +29,8 @@ public class Day35 {
         if (karakter == true){
             System.out.println("Karakter awal dari \""+a+"\" adalah \""+a.substring(0, 1)+"\"");
             System.out.println("Karakter akhir dari \""+a+"\" adalah \""+a.substring(b-1)+"\"");
-        } else if (karakter == false){
-            System.out.println("Karakter awal dan akhir tidak ditampilkan.");
         } else {
-            System.out.println("Perintah yang dimasukkan salah - karakter.");
+            System.out.println("Karakter awal dan akhir tidak ditampilkan.");
         }
         
         System.out.println("\n===== Pangkas Text =====");
@@ -46,10 +44,8 @@ public class Day35 {
             int tpangkas = b-jpangkas;
             System.out.println("Jumlah huruf yang dihapus: "+tpangkas);
             System.out.println("sekarang text \""+a+"\" menjadi \""+a.substring(0, jpangkas)+"\" setelah dipangkas.");
-        } else if (pangkas == false){
-            System.out.println("Text tidak dipangkas.");
         } else {
-            System.out.println("Perintah perintah yang dimasukkan salah - Pangkas.");
+            System.out.println("Text tidak dipangkas.");
         }
         
     }
