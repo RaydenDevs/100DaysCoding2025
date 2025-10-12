@@ -19,7 +19,7 @@ public class Day36 {
             if (a >= -100){
                 System.out.println("Angka lebih kecil dari 0 dan lebih besar dari -100");
             } else {
-                System.out.println("Angka lebih kecil dari 0 dan 100");
+                System.out.println("Angka lebih kecil dari 0 dan -100");
             }
         } else {
             System.out.println("Angka merupakan angka 0");
