@@ -10,7 +10,6 @@ public class Day64 {
         int n = i.nextInt();
         
         int p = m;
-        
         for (int j = 1; j < n; j++) {
             p *= m;
         }
