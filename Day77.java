@@ -1,5 +1,5 @@
 package OneHundredDaysOfCoding;
-public class Day76 {
+public class Day77 {
     public static void main(String[] args) {
         String text = " Ini adalah sebuah text ";
         System.out.println(text.substring(8, 11));
