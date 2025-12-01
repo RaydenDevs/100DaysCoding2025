@@ -5,6 +5,7 @@ public class Day85 {
         int b = 0;
         for (int i = 0; i < a.length; i++) {
             if (a[i] > b) b = a[i];
+            System.out.print(a[i]+" ");
         }
         System.out.println("Angka terbesar : "+b);
     }
