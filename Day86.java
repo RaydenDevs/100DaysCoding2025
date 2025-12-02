@@ -1,5 +1,5 @@
 package OneHundredDaysOfCoding;
-public class Day85 {
+public class Day86 {
     public static void main(String[] args) {
         int[] a = {8,5,3,6,9};
         int b = a[0];
